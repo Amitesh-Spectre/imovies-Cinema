@@ -1,0 +1,34 @@
+{
+  "name": "imovies-server",
+  "version": "1.0.0",
+  "description": "IMovies Cinema Management System Backend API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed": "node utils/seedData.js"
+  },
+  "keywords": [
+    "imovies",
+    "cinema",
+    "booking",
+    "mern",
+    "socketio"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^9.2.1"
+  }
+}

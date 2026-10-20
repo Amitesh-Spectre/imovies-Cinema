@@ -1,0 +1,21 @@
+{
+  "name": "imovies-cinema-system-root",
+  "version": "1.0.0",
+  "description": "Full-Stack IMovies and Cinema Management System (MERN)",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "seed": "cd server && npm run seed",
+    "build": "cd client && npm run build",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [
+    "mern",
+    "cinema",
+    "movies",
+    "booking",
+    "socketio"
+  ],
+  "author": "",
+  "license": "ISC"
+}
